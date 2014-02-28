@@ -1,8 +1,8 @@
 My Environment
 ==============
 
-## Clone this repo
-## Set up symlinks:
+### 1. Clone this repo
+### 2. Set up symlinks:
 - ln -s ~/path/to/my-environment/bash_profile ~/.bash_profile
 - ln -s ~/path/to/my-environment/profile ~/.profile
 - ln -s ~/path/to/my-environment/bashrc ~/.bashrc
