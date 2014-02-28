@@ -1,0 +1,12 @@
+[user]
+	name = Matt Sisto
+	email = msisto@gmail.com
+
+[core]
+excludesfile = /opt/boxen/config/git/gitignore
+
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
+
+[hub]
+protocol = https
