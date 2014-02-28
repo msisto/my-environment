@@ -4,6 +4,10 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 # Include toolchest in path
 export PATH=$PATH:~/src/toolchest/bin
 
+# Add ~/bin to path
+export PATH=$PATH:~/bin
+
+
 # Boxen
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
@@ -12,7 +16,7 @@ source ~/.git-completion.bash
 
 # Aliases
 alias be="bundle exec"
-alias glog="git l"
+alias glog="git l"	
 alias gs="git status"
 
 # Load in the git branch prompt script.
