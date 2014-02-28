@@ -2,6 +2,8 @@
 	"color_scheme": "Packages/User/Tron.tmTheme",
 	"font_face": "Monaco",
 	"font_size": 14.0,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
 	"ignored_packages":
 	[
 		"Vintage"
