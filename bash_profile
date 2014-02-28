@@ -18,6 +18,7 @@ source ~/.git-completion.bash
 alias be="bundle exec"
 alias glog="git l"	
 alias gs="git status"
+alias bake="bundle exec rake"
 
 # Load in the git branch prompt script.
 source ~/bin/.git-prompt.sh
