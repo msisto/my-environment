@@ -19,6 +19,7 @@ alias be="bundle exec"
 alias glog="git l"	
 alias gs="git status"
 alias bake="bundle exec rake"
+alias assets="RAILS_ENV=development bundle exec rake assets:clean"
 
 # Load in the git branch prompt script.
 source ~/bin/.git-prompt.sh
