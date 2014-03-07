@@ -19,21 +19,21 @@
   aa = !git add -A && git status -sb
   c = commit -m
   cibuild = push origin HEAD:wm-ci -f
+  cleanup = !git remote prune origin && git gc && git clean -df && git stash clear
   co = checkout
   cob = checkout -b
-  ir = !git rebase -i origin/master
+  d = diff --word-diff
   done = !git fetch && git rebase origin/master && git checkout master && git merge @{-1} && rake && git push
-  rmb = !sh -c 'git branch -D $1 && git push origin :$1' -
-  cleanup = !git remote prune origin && git gc && git clean -df && git stash clear
-  who   = !git shortlog -sn
-  lcrev = log --reverse --no-merges --stat @{1}..
-  next = !git add . && git rebase --continue
-  unfuck = reset --hard HEAD
+  ir = !git rebase -i origin/master
   l = log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
   la = log --all --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  lcrev = log --reverse --no-merges --stat @{1}..
   ll = log --stat --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-  d = diff --word-diff
+  next = !git add . && git rebase --continue
+  rmb = !sh -c 'git branch -D $1 && git push origin :$1' -
+  unfuck = reset --hard HEAD
   up = !git fetch && git rebase origin/master
+  who   = !git shortlog -sn
 
 [color]
   ui = auto
