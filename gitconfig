@@ -33,6 +33,7 @@
   la = log --all --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
   ll = log --stat --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
   d = diff --word-diff
+  up = !git fetch && git rebase origin/master
 
 [color]
   ui = auto
