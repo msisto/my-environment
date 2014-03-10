@@ -1,5 +1,6 @@
 {
-	"color_scheme": "Packages/User/Monokai Dark.tmTheme",
+	"theme": "Brogrammer.sublime-theme",
+	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
 	"font_face": "Monaco",
 	"font_size": 14.0,
 	"tab_size": 2,
@@ -9,5 +10,4 @@
 	[
 		"Vintage"
 	],
-	"theme": "Spacegray.sublime-theme"
 }
