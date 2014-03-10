@@ -15,11 +15,11 @@ export PATH=$PATH:~/bin
 source ~/.git-completion.bash
 
 # Aliases
-alias be="bundle exec"
-alias glog="git l"	
-alias gs="git status"
-alias bake="bundle exec rake"
 alias assets="RAILS_ENV=development bundle exec rake assets:clean"
+alias bake="bundle exec rake"
+alias be="bundle exec"
+alias glog="git l"  
+alias gs="git status"
 
 # Load in the git branch prompt script.
 source ~/bin/.git-prompt.sh
