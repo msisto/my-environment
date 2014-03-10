@@ -21,6 +21,14 @@ alias be="bundle exec"
 alias glog="git l"  
 alias gs="git status"
 
+# Project shortcut aliases
+alias cronos="cd ~/src/cronos"
+alias environment="cd ~/src/my-environment"
+alias fredette="cd ~/src/fredette"
+alias patients="cd ~/src/icispatients"
+alias snowflake="cd ~/src/snowflake"
+alias staff="cd ~/src/icisstaff"
+
 # Load in the git branch prompt script.
 source ~/bin/.git-prompt.sh
 
