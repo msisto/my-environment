@@ -18,7 +18,7 @@
   a = add
   aa = !git add -A && git status -sb
   c = commit -m
-  cibuild = push origin HEAD:wm-ci -f
+  cibuild = push origin HEAD:ms-ci -f
   cleanup = !git remote prune origin && git gc && git clean -df && git stash clear
   co = checkout
   cob = checkout -b
