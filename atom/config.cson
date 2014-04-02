@@ -1,0 +1,23 @@
+'editor':
+  'autoIndentOnPaste': true
+  'normalizeIndentOnPaste': false
+  'fontSize': 14
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'atom-dark-syntax'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+    '.sass-cache'
+  ]
+'exception-reporting':
+  'userId': '28ee6c6d-3f69-9194-2627-5c88cde08d87'
+'release-notes':
+  'viewedVersion': '0.80.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'eaf58559102622cf6202ccca7f2143a2153a6ab1'
