@@ -40,6 +40,8 @@ __rbenv_ps1 ()
   printf $rbenv_ruby_version
 }
 
+export PATH=$PATH:~/src/toolchest/bin
+
 function prompt {
   local  BLACK="\[\033[0;30m\]"
   local  BLACKBOLD="\[\033[1;30m\]"
