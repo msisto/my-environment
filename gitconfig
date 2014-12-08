@@ -24,6 +24,7 @@
   cob = checkout -b
   d = diff --word-diff
   done = !git fetch && git rebase origin/master && git checkout master && git merge @{-1} && rake && git push
+	fs = foreman start
   ir = !git rebase -i origin/master
   l = log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
   la = log --all --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative

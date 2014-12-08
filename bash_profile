@@ -1,3 +1,5 @@
+source ~/.staging
+
 # Include rbenv in path
 export PATH="$HOME/.rbenv/bin:$PATH"
 
