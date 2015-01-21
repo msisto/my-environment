@@ -1,5 +1,8 @@
 source ~/.staging
 
+# Pg 9.3 fix for rails db connections
+export PGHOST=localhost
+
 # Include rbenv in path
 export PATH="$HOME/.rbenv/bin:$PATH"
 
@@ -8,7 +11,6 @@ export PATH=$PATH:~/src/toolchest/bin
 
 # Add ~/bin to path
 export PATH=$PATH:~/bin
-
 
 # Boxen
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
@@ -20,7 +22,7 @@ source ~/.git-completion.bash
 alias assets="RAILS_ENV=development bundle exec rake assets:clean"
 alias bake="bundle exec rake"
 alias be="bundle exec"
-alias glog="git l"  
+alias glog="git l"
 alias gs="git status"
 
 # Project shortcut aliases
