@@ -12,11 +12,17 @@ export PATH=$PATH:~/src/toolchest/bin
 # Add ~/bin to path
 export PATH=$PATH:~/bin
 
+# Add Python bin path
+export PATH=$PATH:/opt/boxen/homebrew/share/python
+
 # Boxen
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
 # Git completion
 source ~/.git-completion.bash
+
+# Added by travis gem
+source /Users/mattsisto/.travis/travis.sh
 
 # Aliases
 alias assets="RAILS_ENV=development bundle exec rake assets:clean"
