@@ -30,6 +30,7 @@ alias bake="bundle exec rake"
 alias be="bundle exec"
 alias glog="git l"
 alias gs="git status"
+alias npmsucks="rm -rf node_modules/ && npm install"
 
 # Project shortcut aliases
 alias cronos="cd ~/src/cronos"
