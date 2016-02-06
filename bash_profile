@@ -24,6 +24,10 @@ source ~/.git-completion.bash
 # Added by travis gem
 source /Users/mattsisto/.travis/travis.sh
 
+# Node version manager
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
 # Aliases
 alias assets="RAILS_ENV=development bundle exec rake assets:clean"
 alias bake="bundle exec rake"
@@ -73,5 +77,7 @@ function prompt {
 
   export PS1="$GREEN[\t] $YELLOW\W$RED\$(__git_ps1) $YELLOW\$(__rbenv_ps1) $GREEN\u\[\033[00m\] \\$ "
 }
+
+export EDITOR=/usr/local/bin/atom
 
 prompt
